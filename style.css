@@ -11,6 +11,7 @@ body {
   position: absolute;
   top: 450px;
   right: 20px;
+  border: 2px solid black;
 }
 #clock {
   font-family: fantasy;
