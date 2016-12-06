@@ -57,10 +57,10 @@ function initializeGame() {// initializes the game
 
 function moveTime() { // start timer counting down
   var $timeChange = $('#clock');
-  $timeChange.text($timeChange.text()-1);
-  console.log($timeChange.text(), '--', $timeChange.text() === "0")
+    $timeChange.text($timeChange.text()-1);
+    console.log($timeChange.text(), '--', $timeChange.text() === "0")
   if ($timeChange.text() === "0") {
-    console.log($myInterval)
+      console.log($myInterval)
      clearInterval($myInterval)
      gameOver();
   }
